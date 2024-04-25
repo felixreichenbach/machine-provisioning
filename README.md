@@ -1,5 +1,8 @@
 # Viam Machine Creation and Provisioning
 
+Once you have your project at a stage where you are ready to provision many machines, going through the user interface will likely become too cumbersome. Viam therefore provides you easy to use API as part of our SDKs to manage organizations, locations and machines.
+This is a simply Python example which allows you to input a name and the number of machines you want to create and will output one machine-id.json file per machine created. This json file contains the same information as your would get it from the app.viam.com / viam.json and can be used to setup and connect your actual machine.
+
 ## Setup
 
 ```
